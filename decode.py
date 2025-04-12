@@ -2,5 +2,5 @@
 from kdi import decode_lsb
 
 
-hasil = decode_lsb("gambar_tersisip.png")
+hasil = decode_lsb("gambar_teman/gambar_tersisip.png")
 print("Pesan tersembunyi:", hasil)

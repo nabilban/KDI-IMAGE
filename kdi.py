@@ -6,8 +6,8 @@
 from PIL import Image
 
 # Langkah 1: Buka gambar lokal
-img = Image.open("/content/foto-test-3.jpeg")
-img.save("gambar_awal.png")
+img = Image.open("input/gambar_test_nabil.jpg")
+img.save("input/gambar_awal.png")
 
 # Langkah 2: Fungsi untuk encode
 def encode_lsb(image_path, message, output_path):
